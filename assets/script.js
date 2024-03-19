@@ -65,8 +65,6 @@ function disableCards() {
         end.innerHTML = "ゲームクリア";
       }
       end.classList = "text"
-      // 破關後重置遊戲
-      // resetGame(); 
     }, 500);
   } else {
     resetBoard();
